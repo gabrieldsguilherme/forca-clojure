@@ -1,7 +1,7 @@
 (ns forca-clojure.core
   (:gen-class))
 
-(def total-de-vidas 6)
+(def total-de-vidas 5)
 (def palavra-secreta "CLOJURE")
 
 (defn perdeu [] (print "Você perdeu! :("))
